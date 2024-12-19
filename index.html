@@ -138,74 +138,99 @@ Driven and accomplished Political Scientist with extensive experience in human r
 
     </section><!-- /Stats Section -->
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills section">
+  <!-- Skills Section -->
+<section id="skills" class="skills section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>Currently, my goal is to continue expanding my knowledge in topics and programs related to data science and research. Here are some of my skills in these fields:</p>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Skills</h2>
+    <p>Currently, my goal is to continue expanding my knowledge in topics and programs related to data science and research. Here are some of my skills in these fields:</p>
+  </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row skills-content skills-animation">
+    <div class="row skills-content">
 
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>R</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Python</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Julia</span> <i class="val">40%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>Quantitative & Qualitative Research</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Microsoft Office</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Project management</span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
+      <!-- Skill Item -->
+      <div class="col-lg-4 col-md-6 skill-item" data-aos="zoom-in" data-aos-delay="200">
+        <div class="skill-card">
+          <img src="path/to/r-icon.png" alt="R Icon" class="skill-icon">
+          <h4>R</h4>
         </div>
+      </div><!-- End Skill Item -->
 
-      </div>
+      <!-- Skill Item -->
+      <div class="col-lg-4 col-md-6 skill-item" data-aos="zoom-in" data-aos-delay="300">
+        <div class="skill-card">
+          <img src="path/to/python-icon.png" alt="Python Icon" class="skill-icon">
+          <h4>Python</h4>
+        </div>
+      </div><!-- End Skill Item -->
 
-    </section><!-- /Skills Section -->
+      <!-- Skill Item -->
+      <div class="col-lg-4 col-md-6 skill-item" data-aos="zoom-in" data-aos-delay="400">
+        <div class="skill-card">
+          <img src="path/to/julia-icon.png" alt="Julia Icon" class="skill-icon">
+          <h4>Julia</h4>
+        </div>
+      </div><!-- End Skill Item -->
+
+      <!-- Skill Item -->
+      <div class="col-lg-4 col-md-6 skill-item" data-aos="zoom-in" data-aos-delay="500">
+        <div class="skill-card">
+          <img src="path/to/research-icon.png" alt="Research Icon" class="skill-icon">
+          <h4>Quantitative & Qualitative Research</h4>
+        </div>
+      </div><!-- End Skill Item -->
+
+      <!-- Skill Item -->
+      <div class="col-lg-4 col-md-6 skill-item" data-aos="zoom-in" data-aos-delay="600">
+        <div class="skill-card">
+          <img src="path/to/microsoft-office-icon.png" alt="Microsoft Office Icon" class="skill-icon">
+          <h4>Microsoft Office</h4>
+        </div>
+      </div><!-- End Skill Item -->
+
+      <!-- Skill Item -->
+      <div class="col-lg-4 col-md-6 skill-item" data-aos="zoom-in" data-aos-delay="700">
+        <div class="skill-card">
+          <img src="path/to/project-management-icon.png" alt="Project Management Icon" class="skill-icon">
+          <h4>Project Management</h4>
+        </div>
+      </div><!-- End Skill Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Skills Section -->
+
+<style>
+  .skill-card {
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .skill-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+
+  .skill-card h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+</style>
 
     <!-- Resume Section -->
     <section id="resume" class="resume section">
